@@ -1,0 +1,281 @@
+/************************ Menu Section **********************/
+.navbar{
+  background: #02918c;
+}
+.navbar .nav-item{
+  font-size: 12px;
+}
+.navbar .nav-link{
+  color: #fff !important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/************************ Slider Section **********************/
+#slider-section .carousel-item{
+  width: 100%;
+  height: 660px;
+  overflow: hidden;
+}
+#slider-section img{
+  width: 100%;
+  height: 660px;
+}
+#slider-section .carousel-caption h3{
+  font-size: 34px;
+  color: #fff;
+}
+#slider-section .carousel-caption h2{
+  font-size: 66px;
+  text-transform: uppercase;
+  letter-spacing: 22px;
+  font-weight: bold;
+}
+#slider-section .carousel-caption p{
+  font-size: 20px;
+}
+#slider-section .carousel-caption p::after{
+  content: "";
+  display: block;
+  height: 2rem;
+  background: url("../images/slider-icon.png") no-repeat;
+  width: 7.5rem;
+  margin: auto;
+  margin-top: 3rem;
+}
+#slider-section .btn{
+  color: #0b1016;
+  font-weight: bold;
+  background: #cfc91d;
+  border-radius: 0;
+  font-size: 17px;
+  padding: 10px 39px;
+}
+
+/****************************** About Section **************************/
+#about-section h1{
+  color: #02918c;
+  font-size: 46px;
+  font-weight: bold;
+}
+#about-section h1::after{
+  content: "";
+  display: block;
+  background: url("../images/about-icon.png") no-repeat;
+  height: 2.1rem;
+  margin: auto;
+  width: 10.3rem;
+  margin-top: 1.2rem;
+}
+#about-section p{
+  font-size: 19px;
+  line-height: 44px;
+  color: #7e8287;
+}
+#about-section strong{
+  font-size: 27px;
+  font-weight: 600;
+}
+#about-section .about-title .title{
+  border-right: 1px solid #d9dbdb;
+}
+#about-section .about-title .title h5{
+  color: #7e8287;
+  font-weight: 600;
+}
+#about-section .about-title .title p{
+  font-size: 12px;
+  line-height: 23px;
+  width: 69%;
+  margin: auto;
+}
+
+/************************** Services Section ***************************/
+#services-section{
+  background: url("../images/service-bg.png") no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 70px 0;
+}
+#services-section .services-header h1{
+  color: #02918c;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+#services-section .services-header h1::after{
+  content: "";
+  display: block;
+  background: url("../images/service-icon.png") no-repeat;
+  height: 1.5rem;
+  margin-top: 25px;
+}
+#services-section .services-header p{
+  font-size: 18px;
+  color: #7e8287;
+  line-height: 40px;
+}
+#services-section h5{
+  font-weight: 700;
+  color: #7e8287;
+}
+#services-section p{
+  color: #7e8287;
+  font-size: 1rem;
+}
+
+/****************************** Work Section ***************************/
+#work-section .work-header h1{
+  color: #02918c;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+#work-section .work-header h1::after{
+  content: "";
+  display: block;
+  background: url("../images/service-icon.png") no-repeat;
+  height: 1.8rem;
+  margin: auto;
+  width: 7.0rem;
+  margin-top: 1.4rem;
+}
+#work-section .work-header p {
+	color: #7e8287;
+	font-size: 1.2rem;
+	width: 70%;
+	margin: auto;
+}
+#work-section .work-1{
+  position: relative;
+}
+#work-section .overlay {
+	background: rgba(40,161,155,0.85);
+	width: 80%;
+	height: 192px;
+	position: absolute;
+	top: 33px;
+	left: 37px;
+  opacity: 0;
+}
+#work-section .hovereffect{
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: block;
+}
+#work-section .text h5{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 38px;
+}
+#work-section .text a{
+  color: #fff;
+  text-decoration: none;
+}
+#work-section .text p {
+	color: #fff;
+	font-size: 16px;
+	width: 81%;
+	margin: auto;
+	padding-top: 5px;
+}
+#work-section .hovereffect img{
+  width: 100%;
+}
+#work-section .work-1:hover .overlay{
+  opacity: 1;
+}
+
+/****************************** Contact Section **************************/
+#contact-section .contact-header h1{
+  color: #02918c;
+  font-weight: bold;
+  font-size: 2.8rem;
+}
+#contact-section .contact-header h1::after{
+  content: "";
+  display: block;
+  background: url("../images/service-icon.png") no-repeat;
+  height: 1.8rem;
+  margin: auto;
+  width: 7.0rem;
+  margin-top: 1.4rem;
+}
+#contact-section .contact-header p{
+  color: #7e8287;
+	font-size: 1.2rem;
+	width: 70%;
+	margin: auto;
+}
+#contact-section .contact-from{
+  background: #0b0b0b;
+  margin: auto;
+}
+#contact-section .contact-from input{
+  background: none;
+  border-radius: 0px;
+  height: 55px;
+}
+#contact-section .contact-from textarea{
+  background: none;
+  border-radius: 0;
+}
+#contact-section .contact-from .btn {
+	background: #cfc91d;
+	color: black;
+	font-weight: 600;
+	padding: 9px 26px;
+	letter-spacing: 3px;
+}
+/***************************** Footer Section ***********************/
+#footer {
+	background: #000000;
+	margin-top: -24px;
+	padding-top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+  #slider-section .carousel-caption h3{
+    font-size: 27px;
+  }
+  #slider-section .carousel-caption h2{
+    font-size: 35px;
+    letter-spacing: 9px;
+  }
+}
+
+@media(max-width:575px){
+  #slider-section .carousel-item{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+  }
+  #slider-section img{
+    width: 100%;
+    height: 250px;
+  }
+  #work-section .overlay {
+	height: 350px;
+	top: 45px;
+	left: 62px;
+  }
+  #work-section .text h5{
+    margin-top: 125px;
+  }
+
+}

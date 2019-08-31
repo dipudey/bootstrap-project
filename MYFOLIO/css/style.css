@@ -260,7 +260,7 @@
 }
 
 @media(max-width:575px){
-  #slider-section .slider-section{
+  #slider-section{
     width: 100%;
   }
   #slider-section .carousel-item{

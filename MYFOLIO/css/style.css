@@ -260,6 +260,9 @@
 }
 
 @media(max-width:575px){
+  #slider-section .slider-section{
+    width: 100%;
+  }
   #slider-section .carousel-item{
     width: 100%;
     height: 250px;
